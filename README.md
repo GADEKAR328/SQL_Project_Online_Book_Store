@@ -73,14 +73,14 @@ CREATE TABLE Orders (
 ## Since CSV data is not inserted via SQL script, data was imported manually.
 
 ⚙️ Steps:
--Open pgAdmin
--Navigate → Schemas → Tables
--Right-click on table (Books / Customers / Orders)
--Click Import/Export Data
--Select CSV file from system
+- Open pgAdmin
+- Navigate → Schemas → Tables
+- Right-click on table (Books / Customers / Orders)
+- Click Import/Export Data
+- Select CSV file from system
 ### Enable:
 - Header option ON
--Click Import
+- Click Import
 
 📊 SQL Queries
 🔹 Basic Queries
@@ -173,25 +173,25 @@ LEFT JOIN Orders o ON b.Book_ID = o.Book_ID
 GROUP BY b.Book_ID, b.Title, b.Stock;
 
 🛠️ Tech Stack
--PostgreSQL
--pgAdmin
--SQL
+- PostgreSQL
+- pgAdmin
+- SQL
 
 📸 Project Preview
 
 📎 Files Included
--SQL Script
--CSV Dataset
--Project Questions (PDF)
+- SQL Script
+- CSV Dataset
+- Project Questions (PDF)
 📈 Key Learnings
--Database design & relationships
--CSV data import handling
--Writing optimized SQL queries
--Extracting business insights
+- Database design & relationships
+- CSV data import handling
+- Writing optimized SQL queries
+- Extracting business insights
 🚀 Future Improvements
--Build Power BI Dashboard
--Add stored procedures
--Create web-based UI
+- Build Power BI Dashboard
+- Add stored procedures
+- Create web-based UI
 
 👨‍💻 Author
 
